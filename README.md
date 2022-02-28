@@ -5,14 +5,10 @@
 npm install
 ```
 
-### Run the API with Node
-```
-node ./server/www.js
-```
-
 ### Configure knexfile.js for your database
 ```
-The knexfile.js requires a configuration of the database to be used as well as the database username and password
+The knexfile.js requires a configuration of the database to be used 
+as well as the database username and password
 ```
 
 ### Install the knex CLI and run the database migration and seed data
@@ -27,6 +23,11 @@ knex migrate:latest
 
 Run the seed data:
 knex seed:run
+```
+
+### Run the API with Node
+```
+node ./server/www.js
 ```
 
 ### Compiles and hot-reloads for development
